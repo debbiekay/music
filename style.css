@@ -1,0 +1,116 @@
+header{
+    /* background-image: url(download.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: absolute;
+    opacity: 0.7;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: white;
+    opacity: 1;
+}
+
+.log img{
+    width: 10%;
+    margin: 30px;
+    opacity: 1;
+    background-color: white;
+}
+
+i{
+    margin: 30px;
+}
+
+.subhead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.subhead p{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space:pre;
+}
+
+.handles .fa-brands{
+    /* color: white; */
+    display: block;
+}
+
+
+
+.skull{
+    display: flex;
+    height: 40vh;
+    margin: 0px 0px 0px 200px ;
+}
+
+.level{
+    margin-right: 200px;
+    width: 50vh;
+    padding: 30px;
+}
+
+.level h1, h2{
+    font-size: 50px;
+}
+
+.level .button{
+    padding: 5px;
+    width: 20px;
+    display: flex;
+    margin: 30px;
+    width: 90%;
+    text-align: center;
+
+}
+
+.level .one, .two{
+    margin: 10px 50px 10px 0;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    vertical-align: top;
+   
+}
+
+.one{
+    width: 100%;
+    background-color: green;
+    border: 2px solid white;
+}
+
+.h{
+    margin: 0px 0px 0px 200px ;
+    letter-spacing: 3px;
+    font-size: 65px;
+}
+
+.player{
+    display: flex;
+    margin: 0px 0px 0px 200px ;
+    border: 2px solid white;
+    left: -100px;
+}
+
+.player i{
+    font-size: 30px;
+}
+
+h5{
+   font-size: 20px; 
+}
